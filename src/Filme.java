@@ -5,7 +5,7 @@ public class Filme {
     int duracaoEmMinutos;
     boolean incluidoNoPlano;
     double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    private int totalDeAvaliacoes;
 
     void exibeFichaTecnica() {
         System.out.println("Nome do filme: " +nome);
